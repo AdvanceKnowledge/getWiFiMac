@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1409B2219A66A500BF91EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1409B1219A66A500BF91EC /* AppDelegate.swift */; };
+		BE1409B4219A66A500BF91EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1409B3219A66A500BF91EC /* ViewController.swift */; };
+		BE1409B7219A66A500BF91EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1409B5219A66A500BF91EC /* Main.storyboard */; };
+		BE1409B9219A66A500BF91EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1409B8219A66A500BF91EC /* Assets.xcassets */; };
+		BE1409BC219A66A500BF91EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1409BA219A66A500BF91EC /* LaunchScreen.storyboard */; };
+		D882EDBA29DD97DA4F8803F4 /* Pods_GetWIFIMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9EE69CB53E85FE5D8D33AE /* Pods_GetWIFIMac.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F9EE69CB53E85FE5D8D33AE /* Pods_GetWIFIMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetWIFIMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1409AE219A66A500BF91EC /* GetWIFIMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetWIFIMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1409B1219A66A500BF91EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1409B3219A66A500BF91EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE1409B6219A66A500BF91EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1409B8219A66A500BF91EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1409BB219A66A500BF91EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE1409BD219A66A500BF91EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4466DF78C62062A7B60CEB /* Pods-GetWIFIMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWIFIMac.debug.xcconfig"; path = "Target Support Files/Pods-GetWIFIMac/Pods-GetWIFIMac.debug.xcconfig"; sourceTree = "<group>"; };
+		FF92FB3ABC2972D3E48F70D6 /* Pods-GetWIFIMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWIFIMac.release.xcconfig"; path = "Target Support Files/Pods-GetWIFIMac/Pods-GetWIFIMac.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1409AB219A66A500BF91EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882EDBA29DD97DA4F8803F4 /* Pods_GetWIFIMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9227E1AD7D3ABA5655D73C5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F9EE69CB53E85FE5D8D33AE /* Pods_GetWIFIMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7ECF5CD7F6E636CC499E50B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC4466DF78C62062A7B60CEB /* Pods-GetWIFIMac.debug.xcconfig */,
+				FF92FB3ABC2972D3E48F70D6 /* Pods-GetWIFIMac.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE1409A5219A66A500BF91EC = {
+			isa = PBXGroup;
+			children = (
+				BE1409B0219A66A500BF91EC /* GetWIFIMac */,
+				BE1409AF219A66A500BF91EC /* Products */,
+				A7ECF5CD7F6E636CC499E50B /* Pods */,
+				9227E1AD7D3ABA5655D73C5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1409AF219A66A500BF91EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1409AE219A66A500BF91EC /* GetWIFIMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1409B0219A66A500BF91EC /* GetWIFIMac */ = {
+			isa = PBXGroup;
+			children = (
+				BE1409B1219A66A500BF91EC /* AppDelegate.swift */,
+				BE1409B3219A66A500BF91EC /* ViewController.swift */,
+				BE1409B5219A66A500BF91EC /* Main.storyboard */,
+				BE1409B8219A66A500BF91EC /* Assets.xcassets */,
+				BE1409BA219A66A500BF91EC /* LaunchScreen.storyboard */,
+				BE1409BD219A66A500BF91EC /* Info.plist */,
+			);
+			path = GetWIFIMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1409AD219A66A500BF91EC /* GetWIFIMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1409C0219A66A500BF91EC /* Build configuration list for PBXNativeTarget "GetWIFIMac" */;
+			buildPhases = (
+				6F8E0EB4D2D4B155DD3496B2 /* [CP] Check Pods Manifest.lock */,
+				BE1409AA219A66A500BF91EC /* Sources */,
+				BE1409AB219A66A500BF91EC /* Frameworks */,
+				BE1409AC219A66A500BF91EC /* Resources */,
+				172B44076872F0432A6FC153 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetWIFIMac;
+			productName = GetWIFIMac;
+			productReference = BE1409AE219A66A500BF91EC /* GetWIFIMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1409A6219A66A500BF91EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "追@寻";
+				TargetAttributes = {
+					BE1409AD219A66A500BF91EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE1409A9219A66A500BF91EC /* Build configuration list for PBXProject "GetWIFIMac" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1409A5219A66A500BF91EC;
+			productRefGroup = BE1409AF219A66A500BF91EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1409AD219A66A500BF91EC /* GetWIFIMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1409AC219A66A500BF91EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1409BC219A66A500BF91EC /* LaunchScreen.storyboard in Resources */,
+				BE1409B9219A66A500BF91EC /* Assets.xcassets in Resources */,
+				BE1409B7219A66A500BF91EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		172B44076872F0432A6FC153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetWIFIMac/Pods-GetWIFIMac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetWIFIMac/Pods-GetWIFIMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8E0EB4D2D4B155DD3496B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetWIFIMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1409AA219A66A500BF91EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1409B4219A66A500BF91EC /* ViewController.swift in Sources */,
+				BE1409B2219A66A500BF91EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE1409B5219A66A500BF91EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1409B6219A66A500BF91EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1409BA219A66A500BF91EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1409BB219A66A500BF91EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1409BE219A66A500BF91EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE1409BF219A66A500BF91EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1409C1219A66A500BF91EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4466DF78C62062A7B60CEB /* Pods-GetWIFIMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				INFOPLIST_FILE = GetWIFIMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhongzhudichan.CustomerAPP.GetWIFIMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE1409C2219A66A500BF91EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF92FB3ABC2972D3E48F70D6 /* Pods-GetWIFIMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				INFOPLIST_FILE = GetWIFIMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhongzhudichan.CustomerAPP.GetWIFIMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1409A9219A66A500BF91EC /* Build configuration list for PBXProject "GetWIFIMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1409BE219A66A500BF91EC /* Debug */,
+				BE1409BF219A66A500BF91EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1409C0219A66A500BF91EC /* Build configuration list for PBXNativeTarget "GetWIFIMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1409C1219A66A500BF91EC /* Debug */,
+				BE1409C2219A66A500BF91EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1409A6219A66A500BF91EC /* Project object */;
+}
